@@ -1,0 +1,44 @@
+.topbar {
+    display: block;
+    overflow: hidden;
+    height: 54px;
+    padding: 0 8px;
+    background: #fff;
+    border-bottom: solid thin #dbdbdb;
+    border-top: solid thin #dbdbdb;
+}
+
+.topbar--container {
+    display: block;
+    margin: 0 auto;
+    max-width: 935px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+}
+
+.topbar--container>div {
+    flex: 1;
+}
+
+.logo--container>img {
+    margin-top: 14px;
+}
+
+.search--container {
+    padding-top: 14px;
+}
+
+.search--container>input {
+    border: solid thin #dbdbdb;
+    background: #fafafa;
+    padding: 3px 10px 3px 26px;
+}
+
+.navigation--container {
+    padding-top: 14px;
+}
+
+.navigation--container>svg {
+    padding: 6px 6px;
+}
